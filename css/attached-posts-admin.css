@@ -1,23 +1,23 @@
-.postbox-container .cmb-type-custom-attached-posts .cmb-th + .cmb-td {
+/* .postbox-container .cmb-type-custom-attached-posts .cmb-th + .cmb-td {
 	width: 100%;
 }
-
+ */
 .cmb-type-custom-attached-posts .cmb-type-custom_attached_posts {
 	padding-top: 0;
 }
 
 .cmb-type-custom-attached-posts .attached-posts-wrap {
-	display: inline-block;
-	width: 100%;
+	display: block;
+	position: relative;
 }
 
 .cmb-type-custom-attached-posts .column-wrap {
 	float: left;
-	width: 45%;
+	width: 48%;
 }
 
 .cmb-type-custom-attached-posts .retrieved-wrap {
-	margin-right: 10%;
+	margin-right: 2%;
 }
 
 .cmb-type-custom-attached-posts .attached-posts-section {

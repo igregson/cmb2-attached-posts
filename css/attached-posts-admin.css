@@ -87,15 +87,6 @@
 	opacity: .5;
 }
 
-.attached-posts-wrap .retrieved li.added:hover {
-	background: #fff;
-	cursor: initial;
-}
-
-.attached-posts-wrap .retrieved li.added:hover .add-remove {
-	background-position: 0 -22px;
-}
-
 .connected li .add-remove {
 	display: block;
 	height: 17px;
@@ -105,6 +96,21 @@
 	top: 50%;
 	width: 22px;
 }
+
+// hide plus icon if disabled/added
+.connected li.added .add-remove {
+	display: none;
+}
+
+.attached-posts-wrap .retrieved li.added:hover {
+	background: #fff;
+	cursor: initial;
+}
+
+.attached-posts-wrap .retrieved li.added:hover .add-remove {
+	background-position: 0 -22px;
+}
+
 
 ul.hide-selected li.added{
     display: none;

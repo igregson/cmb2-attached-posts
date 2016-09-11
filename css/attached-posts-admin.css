@@ -39,7 +39,10 @@
 }
 
 .cmb-type-custom-attached-posts .has-thumbnails.connected {
-	height: 600px;
+	height: 100%;
+	min-height: 50px;
+	max-height: 200px;
+	overflow-y: auto;
 }
 
 .cmb-type-custom-attached-posts .has-thumbnails li {

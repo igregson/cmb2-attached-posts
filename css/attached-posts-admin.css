@@ -20,9 +20,12 @@
 	margin-right: 2%;
 }
 
-.cmb-type-custom-attached-posts .attached-posts-section {
+.cmb-type-custom-attached-posts h4.attached-posts-section {
 	margin-bottom: 5px;
+	margin-top: 0 !important;
 }
+
+
 
 .cmb-type-custom-attached-posts .search-wrap .regular-text {
 	width: 100%;
@@ -105,4 +108,13 @@
 
 ul.hide-selected li.added{
     display: none;
+}
+
+
+.attached-wrap li {
+	cursor: move;
+}
+
+.attached-wrap .dashicons-minus {
+	cursor: pointer;
 }

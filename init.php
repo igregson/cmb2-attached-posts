@@ -79,7 +79,7 @@ class WDS_CMB2_Attached_Posts_Field {
 
 		// Check 'filter' setting
 		$filter_boxes = $field->options( 'filter_boxes' )
-			? '<div class="search-wrap"><input type="text" placeholder="' . sprintf( __( 'Filter %s', 'cmb' ), $post_type_labels ) . '" class="regular-text search" name="%s" /></div>'
+			? '<div class="search-wrap"><input type="text" placeholder="' . sprintf( __( 'Type to filter', 'cmb' ), $post_type_labels ) . '" class="regular-text search" name="%s" /></div>'
 			: '';
 
 		if ( ! $query_users ) {
